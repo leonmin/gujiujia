@@ -1,0 +1,53 @@
+/* @import '/src/styles/index.css'; */
+body * {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.wrap {
+  max-width: 600px;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #999;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.poetry-type {
+  background: #999;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 20px;
+  line-height: 1;
+}
+.content, .para {
+  line-height: 1.75;
+  font-size: 16px;
+  color: #444;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  font-size: 12px;
+}
+
