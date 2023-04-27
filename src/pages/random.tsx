@@ -77,7 +77,7 @@ export function Random () {
             </div>}
         </div>
         <div className="footer flex">
-          <span className="mr-5 gray">沽酒家</span><a href="http://beian.miit.gov.cn" className="grey">蜀ICP备16028678号-4</a>
+          <span className="mr-5 gray">沽酒家</span><a href="http://beian.miit.gov.cn" className="grey">蜀ICP备16028678号-6</a>
         </div>
       </div>
     </div>
